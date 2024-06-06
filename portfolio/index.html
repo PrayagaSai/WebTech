@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="flex items-centre justify-between">
+            <div class="left flex justify-right">
+                <div class="logo">
+                    <img src="./images/logo.png" alt="Logo">
+                </div>
+            </div>
+            <div class="right flex justify-center">
+                <a href="#Home">Home</a>
+                <a href="#About">About</a>
+                <a href="#Ptf">Portfolio</a>
+                <a href="#Contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero flex items-centre justify-between" id="Home">
+        <div class="left flex-1 justify-center">
+            <img src="./images/main-img.png" alt="Profile">
+        </div>
+        <div class="right flex-1">
+            <h6>Akshat Sharma</h6>
+            <h1>I'm a Web<br> <span>Developer</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque illum nam nobis, minimalaudantium fugit sequi nostrum quod impedit, beatae necessitatibus praesentium optio laboremeno!</p>
+            <div><button class="btn btn-secondary">DOWNLOAD CV</button></div>
+        </div>
+    </section>
+
+    <section class="about" id="About">
+        <div class="container flex items-centre">
+            <div class="left flex-1 justify-right">
+                <img src="./images/about-img.png" alt="About">
+            </div>
+            <div class="right flex-1">
+                <h1>About Me</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque illum nam nobis, minimalaudantium fugit sequi nostrum quod impedit, beatae necessitatibus praesentium optio laboremeno!</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="Ptf">
+        <div class="container mt-3">
+            <h1 class="text-center">Portfolio</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="image1.png" alt="Card 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Card 1</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="image2.png" alt="Card 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Card 2</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="image3.png" alt="Card 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Card 3</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="Contact">
+        <div class="container flex items-centre">
+            <div class="left flex-1 justify-center">
+                <iframe src="https://www.google.com/maps/embed?..." width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="right flex-1">
+                <h1>Get in Touch</h1>
+                <form>
+                    <input type="text" name="name" placeholder="Name">
+                    <input type="email" name="email" placeholder="Email">
+                    <input type="text" name="subject" placeholder="Subject">
+                    <textarea name="message" placeholder="Message"></textarea>
+                    <button class="btn btn-primary">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="copyright text-center">
+                        &copy; Copyright <strong>Akshat Sharma</strong>. All Rights Reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
